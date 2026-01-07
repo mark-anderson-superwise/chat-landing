@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- SW /chat Landing Page – Mark Anderson - SUPERWISE -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUPERWISE /chat - Enterprise AI Chat with Governance Built In</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<!-- Link to Style Sheet -->    
+    <link rel="stylesheet" href="./sw-chat-styles.css">
+</head>
+<body>
+    <div class="bg-gradient"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">SUPERWISE <span>/chat</span></a>
+            <ul class="nav-links">
+                <li><a href="#problem">The Problem</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#capabilities">Capabilities</a></li>
+                <li><a href="#comparison">Compare</a></li>
+                <li><a href="#security">Security</a></li>
+            </ul>
+            <a href="#get-started" class="nav-cta">Sign Up Now</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Enterprise AI Chat with <span>Governance Built In</span>, Not Bolted On</h1>
+                <p class="hero-subhead">Give your business team private, safe, compliant AI assistance - without the enterprise tax or governance gaps</p>
+                <div class="hero-ctas">
+                    <a href="#get-started" class="btn-primary">Sign Up Now</a>
+                    <!--a href="#how-it-works" class="btn-secondary">See How It Works</a-->
+                </div>
+                
+            </div>
+            <div class="hero-visual">
+                <div class="interface-mockup">
+                    <div class="mockup-header">
+                        <div class="mockup-dot red"></div>
+                        <div class="mockup-dot yellow"></div>
+                        <div class="mockup-dot green"></div>
+                    </div>
+                    <div class="mockup-content">
+                        <div class="chat-panel">
+                            <div class="chat-message user">Analyze Q3 revenue trends from our financial data</div>
+                            <div class="chat-message ai">Based on your Q3 financials, I've identified three key trends: revenue growth of 23% YoY, margin improvement in the enterprise segment, and seasonal patterns aligned with...</div>
+                            <div class="chat-message user">Can you project Q4 based on this?</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="governance-overlay">
+                    <h4>Governance Status</h4>
+                    <div class="governance-item"><span class="dot"></span> PII Protected</div>
+                    <div class="governance-item"><span class="dot"></span> Policy Compliant</div>
+                    <div class="governance-item"><span class="dot"></span> Audit Logged</div>
+                    <div class="governance-item"><span class="dot warning"></span> Data Classification: Internal</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Problem/Solution Section -->
+    <section class="problem-section" id="problem">
+        <h2 class="problem-statement">Your teams are using ChatGPT.<br>Your security team is panicking.</h2>
+        <!-- Pill Nav Section -->    
+<div class="pill-nav">
+                    <a href="#problem" class="pill-link">The Problem</a>
+                    <a href="#how-it-works" class="pill-link">How It Works</a>
+                    <a href="#capabilities" class="pill-link">Capabilities</a>
+                    <a href="#comparison" class="pill-link">Compare</a>
+                    <a href="#security" class="pill-link">Security</a>
+                </div>
+                <!-- End Pill Nav Section -->
+        <div class="pain-points">
+            <div class="pain-point">
+                <div class="pain-point-icon">
+                    <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                    </svg>
+                </div>
+                <h3>Compliance Risks</h3>
+                <p>Sensitive data exposed to third-party models without audit trails or data handling guarantees</p>
+            </div>
+            <div class="pain-point">
+                <div class="pain-point-icon">
+                    <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21"/>
+                    </svg>
+                </div>
+                <h3>Shadow AI Usage</h3>
+                <p>Employees using consumer AI tools with no visibility, control, or ability to enforce policies</p>
+            </div>
+            <div class="pain-point">
+                <div class="pain-point-icon">
+                    <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                </div>
+                <h3>Enterprise Costs</h3>
+                <p>ChatGPT Enterprise pricing at $60/user/month with governance that still requires workarounds</p>
+            </div>
+        </div>
+
+        <div class="partner-cta">
+            <h2>Our architecture makes governance impossible to bypass</h2>
+            <p>Every interaction is protected, every policy is enforced, every action is logged–by design</p>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="architecture-section" id="how-it-works">
+        <div class="section-header">
+            <div class="section-label">How It Works</div>
+            <h2 class="section-title">Built with SUPERWISE</h2>
+            <p class="section-subtitle">SUPERWISE /chat isn't just another chatbot–it's a complete governed AI architecture</p>
+        </div>
+
+        <div class="architecture-diagram">
+            <div class="arch-flow">
+                <div class="arch-node">
+                    <div class="arch-node-box">
+                        <h4>User Interface</h4>
+                        <p>Customized OpenWebUI</p>
+                    </div>
+                </div>
+                <span class="arch-arrow">→</span>
+                <div class="arch-node">
+                    <div class="arch-node-box highlight">
+                        <h4>SUPERWISE Agents</h4>
+                        <p>Policy Enforcement</p>
+                    </div>
+                </div>
+                <span class="arch-arrow">→</span>
+                <div class="arch-node">
+                    <div class="arch-node-box highlight">
+                        <h4>Guardrails</h4>
+                        <p>PII, Toxicity, Custom</p>
+                    </div>
+                </div>
+                <span class="arch-arrow">→</span>
+                <div class="arch-node">
+                    <div class="arch-node-box">
+                        <h4>LLM Provider</h4>
+                        <p>Private and/or Public</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="arch-callouts">
+            <div class="callout">
+                <div class="callout-icon">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                    </svg>
+                </div>
+                <div>
+                    <h4>Every interaction flows through SUPERWISE agents</h4>
+                    <p>No bypass possible - governance is architectural, not optional</p>
+                </div>
+            </div>
+            <div class="callout">
+                <div class="callout-icon">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                    </svg>
+                </div>
+                <div>
+                    <h4>Guardrails and observability are required, not optional</h4>
+                    <p>Built-in compliance that can't be disabled or worked around</p>
+                </div>
+            </div>
+            <div class="callout">
+                <div class="callout-icon">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                    </svg>
+                </div>
+                <div>
+                    <h4>OpenWebUI provides familiar ChatGPT experience</h4>
+                    <p>Zero learning curve for end users, full control for IT</p>
+                </div>
+            </div>
+            <div class="callout">
+                <div class="callout-icon">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"/>
+                    </svg>
+                </div>
+                <div>
+                    <h4>Agent Studio enables custom configurations in hours</h4>
+                    <p>Tailor policies, workflows, and integrations without code</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tech-toggle">
+            <button class="toggle-btn" onclick="toggleTechDetails()">See detailed architecture</button>
+        </div>
+        <div class="tech-details" id="tech-details">
+            <h4>Technical Architecture Details</h4>
+            <ul>
+                <li>Request interception at the API gateway level</li>
+                <li>Real-time PII detection and redaction engine</li>
+                <li>Customizable policy rules with SUPERWISE configuration</li>
+                <li>Full audit logging with structured event streams</li>
+                <li>SSO integration (Auth0)</li>
+                <li>Model routing based on data classification</li>
+                <li>Rate limiting and quota management per user/group</li>
+                <li>Webhook support for external system integration</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Capabilities -->
+    <section id="capabilities">
+        <div class="section-header">
+            <div class="section-label">Capabilities</div>
+            <h2 class="section-title">Everything You Need, Nothing You Don't</h2>
+        </div>
+
+        <div class="capabilities-grid">
+            <div class="capability-card">
+                <div class="capability-icon">
+                    <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                    </svg>
+                </div>
+                <h3>Built-In Governance</h3>
+                <p>Enterprise-grade protection that's impossible to bypass, with complete audit trails</p>
+                <ul class="capability-list">
+                    <li>PII detection and automatic redaction</li>
+                    <li>Toxicity filtering and content moderation</li>
+                    <li>Jailbreak attempt prevention</li>
+                    <li>Custom policy rules and enforcement</li>
+                </ul>
+                <a href="#" class="learn-more">Learn more →</a>
+            </div>
+
+            <div class="capability-card">
+                <div class="capability-icon">
+                    <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"/>
+                    </svg>
+                </div>
+                <h3>Model Flexibility</h3>
+                <p>Use any LLM provider while maintaining consistent governance across all models</p>
+                <ul class="capability-list">
+                    <li>OpenAI GPT-4 and GPT-3.5</li>
+                    <li>Anthropic Claude models</li>
+                    <li>Google Vertex AI</li>
+                    <li>On-premise or private cloud deployment</li>
+                </ul>
+                <a href="#" class="learn-more">Learn more →</a>
+            </div>
+
+            <div class="capability-card">
+                <div class="capability-icon">
+                    <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"/>
+                    </svg>
+                </div>
+                <h3>White-Label Ready</h3>
+                <p>Deploy as your own branded solution with full customization options</p>
+                <ul class="capability-list">
+                    <li>Custom branding and theming</li>
+                    <li>Your domain and SSL certificates</li>
+                    <li>Deployment in weeks, not months</li>
+                    <li>Full API access for integrations</li>
+                </ul>
+                <a href="#" class="learn-more">Learn more →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- For Different Buyers -->
+    <section id="buyers">
+        <div class="section-header">
+            <div class="section-label">For Your Role</div>
+            <h2 class="section-title">Built for How You Work</h2>
+        </div>
+
+        <div class="buyer-tabs">
+            <button class="buyer-tab active" onclick="switchBuyerTab('it')">For Enterprise IT </button>
+            <button class="buyer-tab" onclick="switchBuyerTab('business')">For Business Teams</button>
+        </div>
+
+        <div class="buyer-content active" id="buyer-it">
+            <div class="buyer-grid">
+                <ul class="buyer-benefits">
+                    <li>
+                        <div class="benefit-icon">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                            </svg>
+                        </div>
+                        <div class="benefit-text">
+                            <h4>Complete Governance Control</h4>
+                            <p>Define and enforce policies at the architectural level - no workarounds possible</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="benefit-icon">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <path d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                            </svg>
+                        </div>
+                        <div class="benefit-text">
+                            <h4>Flexible Deployment Options</h4>
+                            <p>Cloud, on-premise, or air-gapped - deploy where your data policies require</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="benefit-icon">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <path d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"/>
+                            </svg>
+                        </div>
+                        <div class="benefit-text">
+                            <h4>SSO & Directory Integration</h4>
+                            <p>SAML 2.0, OIDC, and Active Directory support out of the box</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="benefit-icon">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <path d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                            </svg>
+                        </div>
+                        <div class="benefit-text">
+                            <h4>Full Audit & Compliance</h4>
+                            <p>Every interaction logged with structured events for compliance reporting</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="buyer-metrics">
+                    <h4>Key Metrics</h4>
+                    <div class="metric">
+                        <div class="metric-value">100%</div>
+                        <div class="metric-label">Policy enforcement rate - no bypass possible</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">2 weeks</div>
+                        <div class="metric-label">Typical deployment time</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">Zero</div>
+                        <div class="metric-label">Shadow AI incidents after deployment</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="buyer-content" id="buyer-business">
+            <div class="buyer-grid">
+                <ul class="buyer-benefits">
+                    <li>
+                        <div class="benefit-icon">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                            </svg>
+                        </div>
+                        <div class="benefit-text">
+                            <h4>Familiar ChatGPT Experience</h4>
+                            <p>Same intuitive interface your team already knows - zero learning curve</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="benefit-icon">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                        </div>
+                        <div class="benefit-text">
+                            <h4>No More Waiting for IT Approval</h4>
+                            <p>Governance is built in, so you can use AI immediately and safely</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="benefit-icon">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                            </svg>
+                        </div>
+                        <div class="benefit-text">
+                            <h4>Work with Sensitive Documents</h4>
+                            <p>Analyze financials, contracts, and customer data with confidence</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="benefit-icon">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                        </div>
+                        <div class="benefit-text">
+                            <h4>Team Collaboration Features</h4>
+                            <p>Share prompts, templates, and workflows across your department</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="buyer-metrics">
+                    <h4>Productivity Impact</h4>
+                    <div class="metric">
+                        <div class="metric-value">40%</div>
+                        <div class="metric-label">Faster document analysis and summarization</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">3 hours</div>
+                        <div class="metric-label">Average time saved per employee per week</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">95%</div>
+                        <div class="metric-label">User adoption within first month</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison -->
+    <section id="comparison">
+        <div class="section-header">
+            <div class="section-label">Compare Solutions</div>
+            <h2 class="section-title">The Clear Choice for Enterprise AI</h2>
+        </div>
+
+        <div class="comparison-table-wrapper">
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>SUPERWISE /chat</th>
+                        <th>ChatGPT Enterprise</th>
+                        <th>Build Custom</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Built-in Governance</td>
+                        <td><span class="check">✓ Architectural</span></td>
+                        <td><span class="partial">~ Limited</span></td>
+                        <td><span class="cross">✗ Must build</span></td>
+                    </tr>
+                    <tr>
+                        <td>Model Flexibility</td>
+                        <td><span class="check">✓ Any provider</span></td>
+                        <td><span class="cross">✗ OpenAI only</span></td>
+                        <td><span class="check">✓ Any provider</span></td>
+                    </tr>
+                    <tr>
+                        <td>On-Premise Option</td>
+                        <td><span class="check">✓ Available</span></td>
+                        <td><span class="cross">✗ Cloud only</span></td>
+                        <td><span class="check">✓ Available</span></td>
+                    </tr>
+                    <tr>
+                        <td>Time to Deploy</td>
+                        <td><span class="check">2-4 weeks</span></td>
+                        <td><span class="check">1-2 weeks</span></td>
+                        <td><span class="cross">3-6 months</span></td>
+                    </tr>
+                    <tr>
+                        <td>Audit & Compliance</td>
+                        <td><span class="check">✓ Complete</span></td>
+                        <td><span class="partial">~ Basic</span></td>
+                        <td><span class="cross">✗ Must build</span></td>
+                    </tr>
+                    <tr>
+                        <td>Custom Policies</td>
+                        <td><span class="check">✓ Fully flexible</span></td>
+                        <td><span class="partial">~ Limited</span></td>
+                        <td><span class="check">✓ Fully flexible</span></td>
+                    </tr>
+                    <tr>
+                        <td>White-Label</td>
+                        <td><span class="check">✓ Full branding</span></td>
+                        <td><span class="cross">✗ OpenAI branding</span></td>
+                        <td><span class="check">✓ Full branding</span></td>
+                    </tr>
+                    <tr>
+                        <td>Cost per User</td>
+                        <td><span class="check">$25/month</span></td>
+                        <td>$60/month</td>
+                        <td>$$$$ Engineering</td>
+                    </tr>
+                    <tr>
+                        <td>Seat Minimum</td>
+                        <td><span class="check">10 users</span></td>
+                        <td>50 users</td>
+                        <td><span class="check">✓ Fully Flexible</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Use Cases -->
+    <section id="use-cases">
+        <div class="section-header">
+            <div class="section-label">Use Cases</div>
+            <h2 class="section-title">AI That Works the Way You Do</h2>
+        </div>
+
+        <div class="use-cases-grid">
+            <div class="use-case-card">
+                <div class="use-case-industry">Human Resources</div>
+                <h3>Employee Onboarding Assistant</h3>
+                <div class="use-case-flow">
+                    <div class="flow-step">
+                        <span class="flow-step-label">Challenge</span>
+                        <span class="flow-step-content">New hires overwhelm HR with repetitive policy and benefits questions</span>
+                    </div>
+                    <div class="flow-step">
+                        <span class="flow-step-label">Solution</span>
+                        <span class="flow-step-content">AI assistant trained on HR policies with PII protection for sensitive inquiries</span>
+                    </div>
+                    <div class="flow-step">
+                        <span class="flow-step-label">Outcome</span>
+                        <span class="flow-step-content">70% reduction in HR ticket volume, 24/7 availability for new employees</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="use-case-card">
+                <div class="use-case-industry">Finance</div>
+                <h3>Financial Analysis</h3>
+                <div class="use-case-flow">
+                    <div class="flow-step">
+                        <span class="flow-step-label">Challenge</span>
+                        <span class="flow-step-content">Analysts spend hours on routine data analysis and report generation</span>
+                    </div>
+                    <div class="flow-step">
+                        <span class="flow-step-label">Solution</span>
+                        <span class="flow-step-content">Governed AI for financial document analysis with data classification controls</span>
+                    </div>
+                    <div class="flow-step">
+                        <span class="flow-step-label">Outcome</span>
+                        <span class="flow-step-content">50% faster quarterly reporting, complete audit trail for compliance</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="use-case-card">
+                <div class="use-case-industry">Legal</div>
+                <h3>Contract Review Assistant</h3>
+                <div class="use-case-flow">
+                    <div class="flow-step">
+                        <span class="flow-step-label">Challenge</span>
+                        <span class="flow-step-content">Legal teams bottlenecked by volume of contracts requiring review</span>
+                    </div>
+                    <div class="flow-step">
+                        <span class="flow-step-label">Solution</span>
+                        <span class="flow-step-content">AI assistant for clause extraction and risk identification with strict confidentiality</span>
+                    </div>
+                    <div class="flow-step">
+                        <span class="flow-step-label">Outcome</span>
+                        <span class="flow-step-content">3x contract review throughput while maintaining privilege protection</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="use-case-card">
+                <div class="use-case-industry">Operations</div>
+                <h3>Technical Documentation Hub</h3>
+                <div class="use-case-flow">
+                    <div class="flow-step">
+                        <span class="flow-step-label">Challenge</span>
+                        <span class="flow-step-content">Critical operational knowledge scattered across wikis, docs, and tribal knowledge</span>
+                    </div>
+                    <div class="flow-step">
+                        <span class="flow-step-label">Solution</span>
+                        <span class="flow-step-content">Searchable AI assistant with access to all documentation and access controls</span>
+                    </div>
+                    <div class="flow-step">
+                        <span class="flow-step-label">Outcome</span>
+                        <span class="flow-step-content">80% faster answer discovery, reduced dependency on senior staff</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="partner-cta">
+            <p>Ready to be among the first to deploy governed AI chat for your organization?</p>
+            <br><a href="#get-started" class="btn-primary">Apply for Early Access</a>
+        </div>
+    </section>
+
+    <!-- Security -->
+    <section id="security">
+        <div class="section-header">
+            <div class="section-label">Security & Compliance</div>
+            <h2 class="section-title">Enterprise Security You Can Trust</h2>
+        </div>
+
+        <div class="security-grid">
+            <div class="security-card">
+                <div class="security-icon">
+                    <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                    </svg>
+                </div>
+                <h3>Compliance Ready</h3>
+                <p>Built to support major compliance frameworks and industry regulations</p>
+                <div class="security-badges">
+                    <span class="badge">SOC 2 Type II</span>
+                    <span class="badge">GDPR</span>
+                    <span class="badge">HIPAA</span>
+                    <span class="badge">ISO 27001</span>
+                </div>
+            </div>
+
+            <div class="security-card">
+                <div class="security-icon">
+                    <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4"/>
+                    </svg>
+                </div>
+                <h3>Your Data, Your Control</h3>
+                <p>Your data never trains models. Full data isolation with encryption at rest and in transit</p>
+                <div class="security-badges">
+                    <span class="badge">No Model Training</span>
+                    <span class="badge">AES-256</span>
+                    <span class="badge">TLS 1.3</span>
+                </div>
+            </div>
+
+            <div class="security-card">
+                <div class="security-icon">
+                    <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                    </svg>
+                </div>
+                <h3>Deployment Flexibility</h3>
+                <p>Air-gapped deployment options available for maximum security requirements</p>
+                <div class="security-badges">
+                    <span class="badge">Cloud</span>
+                    <span class="badge">On-Premise</span>
+                    <span class="badge">Air-Gapped</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources -->
+    <section id="resources">
+        <div class="section-header">
+            <div class="section-label">Resources</div>
+            <h2 class="section-title">Everything You Need to Get Started</h2>
+        </div>
+
+        <div class="resources-grid">
+            <a href="#" class="resource-card">
+                <div class="resource-icon">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                    </svg>
+                </div>
+                <h4>Technical Documentation</h4>
+                <p>Complete setup and configuration guides</p>
+            </a>
+            <a href="#" class="resource-card">
+                <div class="resource-icon">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"/>
+                    </svg>
+                </div>
+                <h4>Architecture Diagrams</h4>
+                <p>Detailed system architecture overview</p>
+            </a>
+            <a href="#" class="resource-card">
+                <div class="resource-icon">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"/>
+                    </svg>
+                </div>
+                <h4>Integration Guides</h4>
+                <p>SSO, API, and third-party integrations</p>
+            </a>
+            <a href="#" class="resource-card">
+                <div class="resource-icon">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                </div>
+                <h4>Demo Video</h4>
+                <p>See SUPERWISE /chat in action</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section id="get-started">
+        <div class="final-cta">
+            <h2>Ready to Deploy a Governed AI Assistant?</h2>
+            <p>Give your team the AI tools they need with the governance your security team requires</p>
+            <div class="final-cta-buttons">
+                <a href="#" class="btn-primary">Sign Up Now</a>
+                <a href="#" class="btn-secondary">Request a Demo</a>
+                <a href="#" class="btn-secondary">Download Technical Overview</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Security</a>
+                <a href="#">Contact</a>
+            </div>
+            <p class="footer-copy">© 2026 SUPERWISE. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleTechDetails() {
+            const details = document.getElementById('tech-details');
+            const btn = document.querySelector('.toggle-btn');
+            details.classList.toggle('active');
+            btn.textContent = details.classList.contains('active') 
+                ? 'Hide detailed architecture' 
+                : 'See detailed architecture';
+        }
+
+        function switchBuyerTab(tab) {
+            // Update tab buttons
+            document.querySelectorAll('.buyer-tab').forEach(t => t.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            // Update content
+            document.querySelectorAll('.buyer-content').forEach(c => c.classList.remove('active'));
+            document.getElementById('buyer-' + tab).classList.add('active');
+        }
+
+        // Smooth scroll for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Navigation background on scroll
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.style.background = 'rgba(10, 10, 12, 0.95)';
+            } else {
+                nav.style.background = 'rgba(10, 10, 12, 0.8)';
+            }
+        });
+    </script>
+</body>
+</html>
